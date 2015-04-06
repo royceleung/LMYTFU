@@ -28,7 +28,7 @@ To build on your learning of core engineering concepts, we will begin thinking a
 
 
 ## Basic Requirements
-- [ ] Fork the [repo](https://github.com/makersquare/2014-07-solo)
+- [ ] Fork the repo
 - Complete the README.md template (<30min)
   - [ ] Pick an idea (implement a technology, build a product, make art, etc).
   - [ ] Write it down on paper
