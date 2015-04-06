@@ -43,6 +43,5 @@ To build on your learning of core engineering concepts, we will begin thinking a
 ## Extra Credit
 
 - [ ] Storage - if your app persists data, use a tool like Parse or Firebase. 
-- [ ] Use Liberator, then deploy your app so the whole world can see!
 - [ ] If applicable, use an MVC Framework - Make your app production grade with a full-on MVC. 
 
