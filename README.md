@@ -1,47 +1,25 @@
+## Let Me Youtube That For You ##
 
-# MVP (Solo) Project
+## Sub-Heading ##
+  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
 
-### Overview:
+## Summary ##
+  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
-You have 36 hours to produce something compelling using the skills you've honed over the past five weeks. 
+## Problem ##
+  > Describe the problem your product solves.
 
-__Q:__ What are your inputs?
-<br>
-__A:__ 36 hours of (relatively) undivided attention
+## Solution ##
+  > Describe how your product elegantly solves the problem.
 
-__Q:__ What is the required output?
-<br>
-__A:__ A compelling product presentation delivered to your classmates.
+## Quote from You ##
+  > A quote from a spokesperson in your company.
 
+## How to Get Started ##
+  > Describe how easy it is to get started.
 
-### Getting Started:
+## Customer Quote ##
+  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
-To build on your learning of core engineering concepts, we will begin thinking about how to actually manage projects. Engineering management is a deep skill and discipline with lots of history and academic writing. We will focus on just some highlights of content to give a very brief context of how we arrive here.
-
-* Use an [Iterative and incremental development process](http://en.wikipedia.org/wiki/Iterative_and_incremental_development) instead of a [Waterfall Process](http://en.wikipedia.org/wiki/Waterfall_model)
-
-<!--
-*  [Agile](http://en.wikipedia.org/wiki/Agile_software_development) - is a modern eveolution of Iterative and Incremental Development (IID) that further formalizes the IID philosophy with a set of principles and best practices. It also applies Lean Manufacturing process like [Kanban](http://en.wikipedia.org/wiki/Kanban).-->
-
-<!--* [Lean Product Process](http://theleanstartup.com/principles) - Takes the essence of Agile Development methodology and applies it more broadly to the development of product and buiness models that support he requirements of the project.
--->
-
-
-## Basic Requirements
-- [ ] Fork the repo
-- Complete the PRESS-RELEASE.md template (<30min)
-  - [ ] Pick an idea (implement a technology, build a product, make art, etc).
-  - [ ] Write it down on paper
-  - [ ] Imagine what portion of this could be done in 24 hours.
-  - [ ] Cut the scope in half.
-  - [ ] Cut the above scope in half again.
-  - [ ] Fill in the README.md template document
-- [ ] Use iterative development (go straight to something that demos your idea)
-- [ ] Prepare for pitch @ demo on Tuesday
-
-
-## Extra Credit
-
-- [ ] Storage - if your app persists data, use a tool like Parse or Firebase. 
-- [ ] If applicable, use an MVC Framework - Make your app production grade with a full-on MVC. 
-
+## Closing and Call to Action ##
+  > Wrap it up and give pointers where the reader should go next.
