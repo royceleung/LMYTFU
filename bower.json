@@ -1,0 +1,24 @@
+{
+  "name": "MKS25-solo",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [
+    "Royce Leung <royceleung@gmail.com>"
+  ],
+  "description": "",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "underscore": "~1.8.3"
+  }
+}
