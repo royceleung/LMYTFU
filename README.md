@@ -6,7 +6,7 @@
 ## How to Get Started ##
 	npm install
 	bower install
-  node server.js
+	node server.js
   >Go to localhost:3000. Type your search into the Search Box.
 
 ## TroubleShoot ##
