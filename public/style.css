@@ -11,9 +11,31 @@ a {
   text-decoration: none;
 }
 
+#header2 {
+	margin-top: -10px;
+	display: block;
+	text-align:center;
+	margin-bottom:0px;
+	transform: translate(30px, 0px);
+}
+
 h1 {
-  font-style: italic;
-  margin-bottom: 10px;
+	display:inline-block;
+	transform: translate(0px, 10px);
+}
+
+#videoTitle {
+	text-align: center;
+	font-weight: bold;
+	margin-top:5px;
+	margin-bottom:-10px;
+}
+
+.picture {
+	display:inline-block;
+	margin-left: 20px;
+	width:100px;
+	height:100px;
 }
 
 .navigation {
@@ -42,7 +64,7 @@ h1 {
 }
 
 #query {
-  width: 205px;
+	width: 215px;
   text-align: center;
 }
 
@@ -53,7 +75,9 @@ h1 {
 
 #frame {
 	display: block;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 	padding-top: -40px;
 	border: none;
 	width: 500px;

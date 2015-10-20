@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.static(__dirname + "/public"));
 
 app.get('/', function(req, res) {
-	res.redirect('/search.html');
+	res.redirect('/index.html');
 })
 
 
