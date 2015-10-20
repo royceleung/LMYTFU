@@ -9,5 +9,5 @@
   >Launch the server at localhost:3000 with "node server.js". 
   >Type your search into the Search Box.
 
-## TroubleShooting ##
-	>If you get iframe error in console, remove line 20 in auth.js
+## Summary ##
+  > Loads the first Video or Playlist for the User. Completely blocks all ads.
