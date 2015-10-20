@@ -1,7 +1,7 @@
 ## Let Me Youtube That For You ##
 
 ## Summary ##
-  > Loads the first Video or Playlist for the User. Completely blocks all ads.
+  > Loads the first Video, Playlist, or Latest Channel Uploads for the User. Completely blocks all ads.
 
 ## How to Get Started ##
 	npm install

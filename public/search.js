@@ -41,3 +41,22 @@ function playlistSearch() {
     });
   });
 }
+
+function channelSearch() {
+  var q = $('#query').val();
+  var request = gapi.client.youtube.channels.list({
+    forUsername: q,
+    part: 'snippet, contentDetails'
+  });
+
+  request.execute(function(response) {
+    var id = response.result.items[0].contentDetails.relatedPlaylists.uploads;
+    var title = response.result.items[0].snippet.title;
+    console.log(id);
+    $(function(){
+      $("#frame").attr("src", "http://www.youtube.com/embed/?listType=playlist&list="+ id + "&autoplay=1");
+      $("#frame").append('allowfullscreen');
+      $("#videoTitle").html(title);
+    });
+  });
+}
