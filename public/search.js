@@ -15,8 +15,6 @@ function search() {
   request.execute(function(response) {
     var id = response.result.items[0].id.videoId;
     var title = response.result.items[0].snippet.title;
-    console.log(id);
-    console.log(title);
     $(function(){
       $("#frame").attr("src", "http://www.youtube.com/embed/"+ id +"?rel=0&autoplay=1");
       $("#frame").append('allowfullscreen');
@@ -36,8 +34,6 @@ function playlistSearch() {
   request.execute(function(response) {
     var id = response.result.items[0].id.playlistId;
     var title = response.result.items[0].snippet.title;
-    console.log(id);
-    console.log(response.result.items[0]);
     $(function(){
       $("#frame").attr("src", "http://www.youtube.com/embed/?listType=playlist&list="+ id + "&autoplay=1");
       $("#frame").append('allowfullscreen');
