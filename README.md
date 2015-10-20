@@ -6,8 +6,8 @@
 ## How to Get Started ##
 	npm install
 	bower install
-  >Launch the server at localhost:3000 with "node server.js". 
-  >Type your search into the Search Box.
+  node server.js
+  >Go to localhost:3000. Type your search into the Search Box.
 
 ## TroubleShoot ##
   > If you are getting iframe origin errors, remove line 20 in auth.js.
