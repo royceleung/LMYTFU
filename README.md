@@ -9,5 +9,5 @@
   >Launch the server at localhost:3000 with "node server.js". 
   >Type your search into the Search Box.
 
-## Summary ##
-  > Loads the first Video or Playlist for the User. Completely blocks all ads.
+## TroubleShoot ##
+  > If you are getting iframe origin errors, remove line 20 in auth.js.
