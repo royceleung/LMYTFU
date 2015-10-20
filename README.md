@@ -1,7 +1,12 @@
 ## Let Me Youtube That For You ##
 
 ## Summary ##
-  > Searches Youtube for the User.
+  > Loads the first Video or Playlist for the User. Completely blocks all ads.
 
 ## How to Get Started ##
-  > Type your search into the Search Box.
+	Run "npm install" & "bower install".
+  >Launch the server at localhost:3000 with "node server.js". 
+  >Type your search into the Search Box.
+
+##TroubleShooting ##
+	> If you get iframe error in console, remove line 20 in auth.js.
