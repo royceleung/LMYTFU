@@ -12,7 +12,6 @@ function search() {
   });
 
   request.execute(function(response) {
-    var str = JSON.stringify(response.result);
     var id = response.result.items[0].id.videoId;
     console.log(response.result.items[0].id);
     console.log(response.result.items[0].id.videoId);
