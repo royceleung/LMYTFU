@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app='youtube'>
+  <head>
+    <meta charset="utf-8" />
+   <title>Let Me Youtube That For You</title>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id='header2'>
+      <h1>Let Me Youtube That For You</h1>
+      <img class="picture" src="http://www.seeklogo.net/wp-content/uploads/2013/02/youtube-button-vector.png">
+    </div>
+    <!-- the ng-view directive is where our templates will be loaded into when navigated to -->
+    <div ng-view></div>
+
+    <script src="angular/angular.js"></script>
+    <script src="angular-route/angular-route.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="auth.js"></script>
+    <script src="search.js"></script>
+    <script src="app.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+
+  </body>
+</html>

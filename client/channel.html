@@ -1,0 +1,21 @@
+<div class='navigation'>
+  <ul>
+    <li><a href='#/search' class='index'>Video</a></li>
+    <li><a href='#/playlist' class='create'>Playlist</a></li>
+    <li><a href='#/channel' class='channel' style="background-color: #ccc; height:40px">Channel</a></li>
+  </ul>
+</div>
+
+<div class="form-inline">
+  <div id="buttons">
+    <!-- <label class="sr-only"for="query">Search</label> -->
+    <input class="form-control" id="query" placeholder="Channel search"/>
+    <button type="button" id="search-button" class="btn btn-primary" onclick="channelSearch()">Search</button>
+  </div>
+</div>
+<div>
+  <p id="videoTitle"> </p>
+</div>
+<div id="youtubeVideo">
+  <iframe id="frame" src="" allowfullscreen></iframe>
+</div>
