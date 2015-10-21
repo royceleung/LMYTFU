@@ -4,6 +4,7 @@
   "description": "Let Me Youtube That For You",
   "main": "app.js",
   "scripts": {
+    "start": "node server.js",
     "postinstall": "./node_modules/bower/bin/bower install"
     },
   "dependencies": {
