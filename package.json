@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Let Me Youtube That For You",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+    },
   "dependencies": {
+    "bower": "^1.6.3",
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "nodemon": "^1.7.2"
