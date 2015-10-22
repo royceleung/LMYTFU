@@ -16,8 +16,7 @@ googleApiClientReady = function() {
 function checkAuth() {
   gapi.auth.authorize({
     client_id: OAUTH2_CLIENT_ID,
-    scope: OAUTH2_SCOPES,
-    immediate: true
+    scope: OAUTH2_SCOPES
   }, handleAuthResult);
 }
 
